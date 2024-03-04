@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dr. Sofia</title>
+    <link rel="shortcut icon" type="image/ico" href="favicon.ico">
+   
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/51fec65d97.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+  	<div id="preloader"></div>
+  	<div class="scrollTop" onclick="scrollToTop();"></div>
+  	<div id="header">
+  		<div class="container">
+  				<nav>
+  					<img src= "images/logo_big.jpg" class= "logo">
+  					<ul id= "sidemenu">
+  						<li><a href="#header">Home</a><li>
+  						<li><a href="#about">About</a><li>
+  						<li><a href="#services">Services</a><li>
+  						<li><a href="#portfolio">Portfolio</a><li>
+  						<li><a href="#contact">Contact</a><li>
+  						<i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+  					</ul>
+  					<i class="fa-solid fa-bars" onclick="openmenu()"></i>
+  					
+  				</nav>
+  			    <div class="header-text">
+  			    	<p><span class="auto-type"></span></p>
+  			    	<h1>Hi, I'm <span>Fly</span><br>from Andhra Pradesh</h1>
+  			    </div>
+  		</div>
+  	</div>
+  	<!-- -------------about-------------- -->	
+  		<div id= "about">
+  			<div class= "container">
+  				<div class="row">
+  					<div class="about-col-1">
+  						<img src="images/background.jpg">
+  					</div>
+  					<div class="about-col-2">
+  						<h1 class="sub-title">About Me</h1>
+  						<p> I'm a doctor. I love watching Sofia, the first cartoon.I like to be called firefly, but sadly some just call me fly. I also name myself phoenix sometimes (sounds like a pyromaniac). But the irony is that i'm a fish, if zodiac sign is anything to go by. So i'm a fish fascinated with fire (doesn't bode well). I'm too scared of horror movies. But i'm a devotee of lord krishna, so there's nothing to fear :) </p>
+  						<div class="tab-titles">
+  							<p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+  							<p class="tab-links" onclick="opentab('experience')">Experience</p>
+  							<p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                        	<ul>
+                        		<li><span>Audiobooks</span><br>Can fall asleep listening to it</li>
+                        		<li><span>Photography</span><br>Can capture animals at weird angles</li>
+                        		<li><span>Sleeping</span><br>Can sleep like a chicken all day long</li>
+                        		<li><span>A medical officer</span><br>The least important skill</li>
+                        	</ul>	
+                        </div>
+                        <div class="tab-contents" id="experience">
+                        	<ul>
+                        		<li><span>202_-202_</span><br>To be updated </li>
+                        		
+                        		
+                        	</ul>	
+                        </div>
+                        <div class="tab-contents" id="education">
+                        	<ul>
+                        		
+                        		<li><span>2021</span><br>MBBS | From some college in Andhra Pradesh</li>
+                        		<li><span>201_</span><br>High School | From some college in AP [I'm stingy at giving info]<li>
+                        	</ul>	
+                        </div>
+  					</div>	
+  				</div>
+  			</div>
+  		</div>
+  	<!-- -----------------------------services----------------------- -->
+  	<div id="services">
+  		<div class="container">
+  			<h1 class="sub-title">My Services</h1>
+  			<div class="services-list">
+  				<div>
+  					<i class="fa-solid fa-stethoscope"></i>
+  					<h2>General Practitioner</h2>
+  					<p>Treat all common medical conditions and refer patients to hospitals and other medical services for urgent and specialist treatment</p>
+  					
+  				</div>
+  				<div>
+  					<i class="fa-solid fa-heart-pulse"></i>
+  					<h2>Dermatologist</h2>
+  					<p>specializes in conditions that affect the skin, hair, and nails</p>
+  					
+  				</div>
+  				<div>
+  					<i class="fa-solid fa-pills"></i>
+  					<h2>Community Physician</h2>
+  					<p>assessment and evaluation of the community's health needs and for the organisation of health services to meet those needs.</p>
+  					
+  				</div>
+  			</div>
+        </div>
+  	</div>
+
+  	<!-- -----------------------------------portfolio--------------------- -->
+  	<div id="portfolio">
+  		<div class= "container">
+  			<h1 class="sub-title">My hobbies</h1>
+  			<div class= "work-list">
+  				<div class= "work">
+  					<img src="images/Fly_dog.jpg">
+  					<div class="layer">
+  						<h3>Dogs</h3>
+  						<p>I love petting random dogs i see.</p>
+  					</div>
+  				</div>
+  				<div class= "work">
+  					<img src="images/book2.jpg">
+  					<div class="layer">
+  						<h3>Reading</h3>
+  						<p>I read everything, from 'how to manipulate people' to 'Use of black magic to gain what i want'</p>
+  					</div>
+  				</div>
+  				<div class= "work">
+  					<img src="images/dance2.avif">
+  					<div class="layer">
+  						<h3>Dancing</h3>
+  						<p>Looove to dance</p>
+  					</div>
+  				</div>
+  			</div>
+  			<a href="SeeMore.html" class="btn">See more</a>
+  		</div>
+  	</div>
+<!-- -------------------------------------contact------------------------- -->
+<div id="contact">
+		
+	<div class="container">
+		<h3><q><i>Whether it's medical advice or dancing tips, just hit me up.</i></q></h3><br>
+		<div class="row">
+			<div class="contact-left">
+					<!--<h1 class="sub-title">Contact Me</h1>-->
+				
+				
+				<p><i class="fa-solid fa-envelope"></i> fly@gmail.com</p>
+				<p><i class="fa-solid fa-phone"></i> 0123456789</p>
+					
+				
+				
+			</div>
+			<div class="contact-right">
+				<form name="submit-to-google-sheet">
+					<input type="text" name="Name" placeholder="Your Name" required>
+					<input type="email" name="Email" placeholder="Your Email" required>
+					<textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+					<button type="submit" class="btn btn2">Submit</button>
+				</form>
+				<span id="msg"></span>
+ 			</div>   
+		</div>   
+ 	</div> 
+ 	<div class="copyright">
+ 		<p>Made by Dr.Deluded</p>
+
+ 	</div>  
+</div>
+  	<script>
+  		var tablinks = document.getElementsByClassName("tab-links");
+  		var tabcontents = document.getElementsByClassName("tab-contents");
+
+  		function opentab(tabname){
+  			for(tablink of tablinks){
+  				tablink.classList.remove("active-link");
+  			}
+  			for(tabcontent of tabcontents){
+  				tabcontent.classList.remove("active-tab")
+  			}
+  			event.currentTarget.classList.add("active-link");
+  			document.getElementById(tabname).classList.add("active-tab");
+  		}
+  		
+  	</script>
+  	<script type="text/javascript">
+  		var sidemeu = document.getElementById("sidemenu");
+
+  		function openmenu(){
+  			sidemeu.style.right = "0"
+  		}
+  		function closemenu(){
+  			sidemeu.style.right = "-200px";
+  		}
+  	</script>
+		<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyuTy5eBapjklyepQ12LGpeWOjVpomU1X-KlVZIboUO0Omb6M7VXOGdMHqqzWweQiMuEg/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+      		msg.innerHTML="Sent successfully"
+      		setTimeout(function(){
+           msg.innerHTML = ""
+         },5000)
+      		form.reset()
+      		})
+      .catch(error => console.error('Error!', error.message))
+ 			 })
+		</script>
+		<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+		<script>
+			var typed = new Typed(".auto-type", {
+				strings: ["DOCTOR OF MEDICINE", "Dermatologist", "SWEET LITTLE FLY"],
+				typeSpeed: 100,
+				backSpeed: 150,
+				loop: true
+			})
+		</script>
+
+    
+    <script type="text/javascript">
+    	window.addEventListener('scroll', function(){
+        var scroll = document.querySelector('.scrollTop');
+        scroll.classList.toggle("active", window.scrollY > 500)
+    	})
+
+    	function scrollToTop(){
+    		window.scrollTo({
+    			top: 0
+    		})
+    	}
+
+    		
+    	
+    </script>
+
+    <script>
+    	
+    	var loader = document.getElementById("preloader");
+    	
+    		window.addEventListener("load", function(){
+    			loader.style.display = "none";
+    		})
+
+    </script>
+		
+  </body>
+</html>
